@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<section class="container">
+    <h1> Registration of Patient</h1>
+    <form id="form" action="" method="POST">
+
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name">
+
+        <label for="height">Height:  </label>
+        <input type="text" id="height" name="height">
+        
+        <label for="weight">Weight:  </label>
+        <input type="text" id="weight" name="weight">
+
+        <button class="btnBMI"> Calculate you BMI</button>
+        <button type="submit"> Send</button>
+    </form>
+
+</section>
+    <div id="result">
+        
+    </div>
+
+    <script src="./js/main.js">
+
+    </script>
+</body>
+</html>
